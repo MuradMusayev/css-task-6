@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 65%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  h1 {
+    font-size: 24px;
+    font-weight: 900;
+  }
+  h2{
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .about {
+    width: 100%;
+    background-color: #f0fff8;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      td {
+        padding: 10px;
+        border: 1px solid #80ced6;
+      }
+    }
+  }
+  p, ul {
+    border-radius: 10px;
+    background-color: #f0fff8;
+    border: 1px solid #80ced6;
+    padding: 30px;
+  }
+}
